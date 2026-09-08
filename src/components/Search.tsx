@@ -1,10 +1,17 @@
 import { useState } from 'react'
 import useStore from '../store'
 
+interface SearchResult {
+  name: string
+  lat: number
+  lng: number
+}
+
 function Search() {
   const [query, setQuery] = useState('')
   const [showResults, setShowResults] = useState(false)
-  const [results, setResults] = useState<{ name: string; lat: number; lng: number }[]>([])
+  const [results, setResults] = useState<SearchResult[]>([])
+  const [loading, setLoading] = useState(false)
 
   const { setCenter, setZoom } = useStore()
 
@@ -12,23 +19,26 @@ function Search() {
     e.preventDefault()
     if (!query.trim()) return
 
+    setLoading(true)
     try {
-      // Use Nominatim API for geocoding
+      // Bias results to the UK to keep postcode/place searches relevant
       const response = await fetch(
-        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&limit=5`
+        `https://nominatim.openstreetmap.org/search?format=json&countrycodes=gb&q=${encodeURIComponent(query)}&limit=5`
       )
       const data = await response.json()
 
-      const formattedResults = data.map((item: any) => ({
+      const formatted: SearchResult[] = data.map((item: { display_name: string; lat: string; lon: string }) => ({
         name: item.display_name,
         lat: parseFloat(item.lat),
         lng: parseFloat(item.lon),
       }))
 
-      setResults(formattedResults)
+      setResults(formatted)
       setShowResults(true)
     } catch (error) {
       console.error('Search error:', error)
+    } finally {
+      setLoading(false)
     }
   }
 
@@ -40,35 +50,46 @@ function Search() {
   }
 
   return (
-    <div className="absolute top-4 left-4 z-[1000] w-full max-w-sm">
-      <form onSubmit={handleSearch} className="relative">
+    <div className="relative">
+      <form onSubmit={handleSearch} className="flex gap-2">
         <input
           type="text"
+          inputMode="search"
           value={query}
           onChange={(e) => {
             setQuery(e.target.value)
             setShowResults(false)
           }}
-          placeholder="Search for location, postcode, or place..."
-          className="w-full px-4 py-3 rounded-lg shadow-lg bg-white/90 backdrop-blur-sm border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          onFocus={() => query && setShowResults(true)}
+          placeholder="Search place, postcode, town..."
+          className="flex-1 px-3 py-2 rounded-lg bg-white text-gray-900 placeholder-gray-400 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 text-base"
         />
-        
-        {showResults && results.length > 0 && (
-          <div className="absolute top-full left-0 right-0 mt-2 bg-white/95 backdrop-blur-sm rounded-lg shadow-xl overflow-hidden">
-            {results.map((result, index) => (
+        <button
+          type="submit"
+          className="bg-blue-600 text-white px-4 py-2 rounded-lg font-semibold active:bg-blue-700 disabled:opacity-60"
+          disabled={loading}
+        >
+          {loading ? '…' : 'Go'}
+        </button>
+      </form>
+
+      {showResults && (
+        <div className="absolute top-full left-0 right-0 mt-1 bg-white rounded-lg shadow-xl border border-gray-200 overflow-hidden z-[1200]">
+          {results.length === 0 ? (
+            <div className="px-4 py-3 text-sm text-gray-500">No results found.</div>
+          ) : (
+            results.map((result, index) => (
               <button
                 key={index}
                 type="button"
                 onClick={() => handleResultClick(result.lat, result.lng)}
-                className="w-full px-4 py-2 text-left hover:bg-blue-50 border-b border-gray-200 last:border-0 transition-colors"
+                className="w-full px-4 py-3 text-left hover:bg-blue-50 active:bg-blue-100 border-b border-gray-100 last:border-0"
               >
-                <div className="font-medium text-sm">{result.name}</div>
+                <div className="text-sm text-gray-800">{result.name}</div>
               </button>
-            ))}
-          </div>
-        )}
-      </form>
+            ))
+          )}
+        </div>
+      )}
     </div>
   )
 }

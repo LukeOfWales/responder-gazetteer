@@ -31,7 +31,7 @@ function AssetCard({ asset, incidentLat, incidentLng, onClose }: AssetCardProps)
   const categoryLabel = asset.category.replace(/_/g, ' ')
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-4 max-h-[90vh] overflow-y-auto">
+    <div className="bg-white rounded-t-2xl sm:rounded-lg shadow-2xl p-4 max-h-[70vh] overflow-y-auto">
       <div className="flex justify-between items-start mb-3">
         <div>
           <h3 className="text-lg font-bold text-gray-900">{asset.name}</h3>

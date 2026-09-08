@@ -7,9 +7,10 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Light UI - the app chrome is light panels over the map.
+     Default text is dark so labels stay readable on white panels. */
+  color: #1f2937;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,18 +18,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
+  /* Use dynamic viewport height so mobile browser chrome doesn't clip the map */
+  height: 100%;
 }
 
 #root {
   width: 100%;
   height: 100vh;
+  height: 100dvh;
 }
 
 /* Fix Leaflet scale control visibility in Chrome */
 .leaflet-control-scale-line {
   display: block !important;
+}
+
+/* Ensure Leaflet popups use dark text regardless of root theme */
+.leaflet-popup-content {
+  color: #1f2937;
 }

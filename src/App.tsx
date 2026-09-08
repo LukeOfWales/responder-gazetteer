@@ -10,6 +10,7 @@ import Search from './components/Search'
 import AssetCard from './components/AssetCard'
 import IncidentMode from './components/IncidentMode'
 import useStore, { type Asset } from './store'
+import { markerIconFor } from './markerIcons'
 
 // Fix default marker icons not loading under bundlers (Vite)
 L.Icon.Default.mergeOptions({
@@ -98,6 +99,7 @@ function MapLayers({ onAssetClick, incidentModeEnabled }: MapLayersProps) {
         <Marker
           key={asset.id}
           position={[asset.latitude, asset.longitude]}
+          icon={markerIconFor(asset.category)}
         >
           <Popup>
             <div className="min-w-[180px]">
@@ -167,10 +169,29 @@ function App() {
 
   return (
     <div className="flex flex-col h-screen">
-      <header className="bg-blue-900 text-white p-4 shadow-md z-[1100] relative">
-        <h1 className="text-2xl font-bold">Responder Gazetteer</h1>
-        <p className="text-sm text-blue-200">Operational awareness tool for 4x4 Response Wales</p>
+      <header className="bg-blue-900 text-white px-3 py-2 shadow-md z-[1100] relative">
+        <div className="flex items-center justify-between gap-2">
+          <div className="min-w-0">
+            <h1 className="text-lg sm:text-2xl font-bold leading-tight truncate">
+              Responder Gazetteer
+            </h1>
+            <p className="text-xs text-blue-200 hidden sm:block">
+              Operational awareness tool for 4x4 Response Wales
+            </p>
+          </div>
+          <button
+            onClick={() => setShowIncidentMode(!showIncidentMode)}
+            className="flex-shrink-0 bg-red-600 text-white px-3 py-2 rounded-lg shadow active:bg-red-700 font-semibold text-sm whitespace-nowrap"
+          >
+            {showIncidentMode ? 'Close' : 'Incident'}
+          </button>
+        </div>
+        {/* Full-width search bar under the title - never collides with map controls */}
+        <div className="mt-2">
+          <Search />
+        </div>
       </header>
+
       <main className="flex-1 relative">
         {/* Map */}
         <MapContainer
@@ -185,21 +206,13 @@ function App() {
           />
         </MapContainer>
 
-        {/* UI overlays (siblings of the map, positioned on top) */}
-        <Search />
-        <LayerControls position="topright" />
-
-        <button
-          onClick={() => setShowIncidentMode(!showIncidentMode)}
-          className="absolute top-4 left-1/2 -translate-x-1/2 bg-red-600 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-red-700 font-semibold z-[1000]"
-        >
-          {showIncidentMode ? 'Close Incident Mode' : 'Incident Mode'}
-        </button>
+        {/* Layer controls float top-right, collapsed to a button by default */}
+        <LayerControls />
 
         {showIncidentMode && <IncidentMode onClose={() => setShowIncidentMode(false)} />}
 
         {selectedAsset && (
-          <div className="absolute top-20 right-4 w-96 z-[1000]">
+          <div className="absolute inset-x-0 bottom-0 z-[1000] sm:inset-x-auto sm:top-4 sm:right-4 sm:bottom-auto sm:w-96">
             <AssetCard
               asset={selectedAsset}
               incidentLat={incidentLocation?.lat ?? null}
