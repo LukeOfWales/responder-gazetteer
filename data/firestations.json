@@ -1,0 +1,712 @@
+[
+  {
+    "id": "node_461633420",
+    "name": "Duffryn Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5667008,
+    "longitude": -3.0180291,
+    "address": "",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Duffryn Fire Station",
+      "operator": "South Wales Fire and Rescue Service"
+    }
+  },
+  {
+    "id": "node_534176698",
+    "name": "Roath Fire Station",
+    "category": "fire_station",
+    "latitude": 51.4966071,
+    "longitude": -3.145813,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Roath Fire Station"
+    }
+  },
+  {
+    "id": "node_704457435",
+    "name": "Pontyclun Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5270888,
+    "longitude": -3.388855,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Pontyclun Fire Station"
+    }
+  },
+  {
+    "id": "node_921486462",
+    "name": "",
+    "category": "fire_station",
+    "latitude": 51.4314331,
+    "longitude": -3.1877052,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station"
+    }
+  },
+  {
+    "id": "node_926584154",
+    "name": "Cimla Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6514647,
+    "longitude": -3.7908373,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Cimla Fire Station"
+    }
+  },
+  {
+    "id": "node_975397929",
+    "name": "Cwmbran Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6441409,
+    "longitude": -3.0256449,
+    "address": "Henllys Way",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:street": "Henllys Way",
+      "amenity": "fire_station",
+      "name": "Cwmbran Fire Station",
+      "operator": "South Wales Fire and Rescue Service"
+    }
+  },
+  {
+    "id": "node_1172831477",
+    "name": "Cymmer Fire Station",
+    "category": "fire_station",
+    "latitude": 51.652783,
+    "longitude": -3.6484911,
+    "address": "",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Cymmer Fire Station",
+      "name:cy": "Gorsaf Dân Cymer",
+      "operator": "South Wales Fire and Rescue Service",
+      "operator:cy": "Gwasanaeth Tân ac Achub De Cymru",
+      "operator:wikidata": "Q7568770"
+    }
+  },
+  {
+    "id": "node_1215503590",
+    "name": "",
+    "category": "fire_station",
+    "latitude": 51.6316905,
+    "longitude": -3.4544174,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station"
+    }
+  },
+  {
+    "id": "node_4248417060",
+    "name": "",
+    "category": "fire_station",
+    "latitude": 51.5231088,
+    "longitude": -3.5017012,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station"
+    }
+  },
+  {
+    "id": "node_6981716648",
+    "name": "Maindee Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5880742,
+    "longitude": -2.9746397,
+    "address": "Archibald Street",
+    "postcode": "NP19 8EP",
+    "phone": "+44 1443 232000",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Newport",
+      "addr:housename": "Maindee Fire Station",
+      "addr:postcode": "NP19 8EP",
+      "addr:street": "Archibald Street",
+      "amenity": "fire_station",
+      "contact:facebook": "https://www.facebook.com/pages/Maindee-Fire-Station/177661225616033",
+      "name": "Maindee Fire Station",
+      "operator": "South Wales Fire and Rescue Service",
+      "phone": "+44 1443 232000"
+    }
+  },
+  {
+    "id": "node_7835976663",
+    "name": "Usk Fire Station",
+    "category": "fire_station",
+    "latitude": 51.7046603,
+    "longitude": -2.9000815,
+    "address": "Monmouth Road",
+    "postcode": "NP15 1SE",
+    "website": "https://www.southwales-fire.gov.uk/stations/42-brynbuga/",
+    "operator": "South Wales Fire and Rescue",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Usk",
+      "addr:postcode": "NP15 1SE",
+      "addr:street": "Monmouth Road",
+      "amenity": "fire_station",
+      "name": "Usk Fire Station",
+      "operator": "South Wales Fire and Rescue",
+      "website": "https://www.southwales-fire.gov.uk/stations/42-brynbuga/"
+    }
+  },
+  {
+    "id": "way_82681129",
+    "name": "Barry Fire Station",
+    "category": "fire_station",
+    "latitude": 51.4153826,
+    "longitude": -3.2899424,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Barry",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Barry Fire Station"
+    }
+  },
+  {
+    "id": "way_96861649",
+    "name": "Merthyr Tydfil Fire Station",
+    "category": "fire_station",
+    "latitude": 51.7470513,
+    "longitude": -3.3831127,
+    "address": "",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "brand": "South Wales Fire and Rescue",
+      "name": "Merthyr Tydfil Fire Station",
+      "operator": "South Wales Fire and Rescue Service",
+      "operator:cy": "Gwasanaeth Tân ac Achub De Cymru",
+      "operator:wikidata": "Q7568770",
+      "source": "Bing;survey"
+    }
+  },
+  {
+    "id": "way_97668795",
+    "name": "Abercynon Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6456502,
+    "longitude": -3.3240692,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Abercynon Fire Station"
+    }
+  },
+  {
+    "id": "way_116397066",
+    "name": "Caerphilly Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5834861,
+    "longitude": -3.2213445,
+    "address": "",
+    "postcode": "CF83 3HL",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:postcode": "CF83 3HL",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Caerphilly Fire Station",
+      "ref:GB:uprn": "43027341",
+      "source": "Bing;survey",
+      "source:addr:postcode": "ONSUD;OS Open UPRN"
+    }
+  },
+  {
+    "id": "way_117345640",
+    "name": "New Inn Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6896351,
+    "longitude": -3.0179718,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "New Inn Fire Station"
+    }
+  },
+  {
+    "id": "way_132046785",
+    "name": "Fire Station (19)",
+    "category": "fire_station",
+    "latitude": 51.3833522,
+    "longitude": -2.8146215,
+    "address": "14 Rock Road",
+    "postcode": "BS49 4JE",
+    "phone": "+44 117 926 2061",
+    "operator": "Avon Fire and Rescue",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Bristol",
+      "addr:housenumber": "14",
+      "addr:postcode": "BS49 4JE",
+      "addr:street": "Rock Road",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Fire Station (19)",
+      "operator": "Avon Fire and Rescue",
+      "phone": "+44 117 926 2061",
+      "ref:GB:uprn": "24052139"
+    }
+  },
+  {
+    "id": "way_201823210",
+    "name": "Clevedon Fire Station",
+    "category": "fire_station",
+    "latitude": 51.4373113,
+    "longitude": -2.8493498,
+    "address": "Old Street",
+    "postcode": "BS21 6BY",
+    "operator": "Avon Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Clevedon",
+      "addr:postcode": "BS21 6BY",
+      "addr:street": "Old Street",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Clevedon Fire Station",
+      "operator": "Avon Fire and Rescue Service",
+      "operator:wikidata": "Q4829193",
+      "ref:GB:uprn": "24047149",
+      "start_date": "1888"
+    }
+  },
+  {
+    "id": "way_233249755",
+    "name": "South Wales Fire and Rescue",
+    "category": "fire_station",
+    "latitude": 51.6268616,
+    "longitude": -3.6573912,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "South Wales Fire and Rescue"
+    }
+  },
+  {
+    "id": "way_251859834",
+    "name": "Pontycymmer Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6129129,
+    "longitude": -3.5844628,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Pontycymmer Fire Station"
+    }
+  },
+  {
+    "id": "way_457755672",
+    "name": "Bridgend Fire and Rescue Station",
+    "category": "fire_station",
+    "latitude": 51.503918,
+    "longitude": -3.5811288,
+    "address": "Angel Street",
+    "postcode": "CF31 4AH",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Bridgend",
+      "addr:postcode": "CF31 4AH",
+      "addr:street": "Angel Street",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Bridgend Fire and Rescue Station",
+      "operator": "South Wales Fire and Rescue Service",
+      "operator:cy": "Gwasanaeth Tân ac Achub De Cymru",
+      "operator:wikidata": "Q7568770"
+    }
+  },
+  {
+    "id": "way_544353238",
+    "name": "Treharris Fire Station",
+    "category": "fire_station",
+    "latitude": 51.664203,
+    "longitude": -3.3072683,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Treharris Fire Station",
+      "ref:GB:uprn": "100100912270"
+    }
+  },
+  {
+    "id": "way_633927260",
+    "name": "Ynyswen Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6645189,
+    "longitude": -3.5127812,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "fire_station",
+      "name": "Ynyswen Fire Station"
+    }
+  },
+  {
+    "id": "way_639209045",
+    "name": "",
+    "category": "fire_station",
+    "latitude": 51.4101917,
+    "longitude": -3.481169,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "fire_station"
+    }
+  },
+  {
+    "id": "way_664916519",
+    "name": "M52 Glynneath Fire Station",
+    "category": "fire_station",
+    "latitude": 51.7445367,
+    "longitude": -3.6304119,
+    "address": "",
+    "postcode": "SA11 5EW",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:postcode": "SA11 5EW",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "M52 Glynneath Fire Station",
+      "ref:GB:uprn": "10009185049",
+      "source:addr:postcode": "ONSUD;OS Open UPRN"
+    }
+  },
+  {
+    "id": "way_693335258",
+    "name": "Cardiff Central Fire Station",
+    "category": "fire_station",
+    "latitude": 51.4802895,
+    "longitude": -3.1662465,
+    "address": "",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes",
+      "building:levels": "5",
+      "check_date": "2024-06-17",
+      "name": "Cardiff Central Fire Station",
+      "operator": "South Wales Fire and Rescue Service",
+      "operator:cy": "Gwasanaeth Tân ac Achub De Cymru",
+      "operator:wikidata": "Q7568770"
+    }
+  },
+  {
+    "id": "way_708934157",
+    "name": "Malpas Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6022014,
+    "longitude": -3.0048699,
+    "address": "Malpas Road",
+    "postcode": "NP20 6YN",
+    "phone": "+44 1633 821677",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Newport",
+      "addr:postcode": "NP20 6YN",
+      "addr:street": "Malpas Road",
+      "amenity": "fire_station",
+      "building": "yes",
+      "check_date": "2024-10-20",
+      "name": "Malpas Fire Station",
+      "operator": "South Wales Fire and Rescue Service",
+      "phone": "+44 1633 821677",
+      "ref:GB:uprn": "10002148680"
+    }
+  },
+  {
+    "id": "way_778960438",
+    "name": "Cowbridge Fire Station",
+    "category": "fire_station",
+    "latitude": 51.4602316,
+    "longitude": -3.4415677,
+    "address": "Eastgate",
+    "postcode": "CF71 7EL",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Cowbridge",
+      "addr:housename": "Fire Statuin",
+      "addr:postcode": "CF71 7EL",
+      "addr:street": "Eastgate",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Cowbridge Fire Station",
+      "operator": "South Wales Fire and Rescue Service",
+      "operator:cy": "Gwasanaeth Tân ac Achub De Cymru",
+      "operator:wikidata": "Q7568770"
+    }
+  },
+  {
+    "id": "way_791865893",
+    "name": "Aberdare Fire Station",
+    "category": "fire_station",
+    "latitude": 51.7139354,
+    "longitude": -3.4382306,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Aberdare Fire Station"
+    }
+  },
+  {
+    "id": "way_796547857",
+    "name": "Risca Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6160589,
+    "longitude": -3.1126527,
+    "address": "New Park Road",
+    "postcode": "NP11 7AE",
+    "operator": "South Wales Fire Station",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Risca",
+      "addr:housename": "Fire Sttion",
+      "addr:postcode": "NP11 7AE",
+      "addr:street": "New Park Road",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Risca Fire Station",
+      "operator": "South Wales Fire Station"
+    }
+  },
+  {
+    "id": "way_799327311",
+    "name": "",
+    "category": "fire_station",
+    "latitude": 51.404935,
+    "longitude": -3.4416896,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes"
+    }
+  },
+  {
+    "id": "way_810772443",
+    "name": "Kenfig Hill Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5287101,
+    "longitude": -3.6910812,
+    "address": "Ffald Road",
+    "postcode": "CF33 6AD",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Pyle",
+      "addr:housename": "Fire Station",
+      "addr:postcode": "CF33 6AD",
+      "addr:street": "Ffald Road",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Kenfig Hill Fire Station",
+      "name:cy": "Gorsaf Dân Mynydd Cynffig",
+      "operator": "South Wales Fire and Rescue Service",
+      "operator:cy": "Gwasanaeth Tân ac Achub De Cymru",
+      "operator:en": "South Wales Fire and Rescue Service",
+      "operator:wikidata": "Q7568770"
+    }
+  },
+  {
+    "id": "way_810903184",
+    "name": "Pontypridd Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5910604,
+    "longitude": -3.3291165,
+    "address": "Oxford Street",
+    "postcode": "CF37 1RU",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Treforest",
+      "addr:housename": "Fire Station",
+      "addr:postcode": "CF37 1RU",
+      "addr:street": "Oxford Street",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Pontypridd Fire Station",
+      "operator": "South Wales Fire and Rescue Service",
+      "operator:cy": "Gwasanaeth Tân ac Achub De Cymru",
+      "operator:wikidata": "Q7568770",
+      "ref:GB:uprn": "10012771392;100100905290"
+    }
+  },
+  {
+    "id": "way_814256861",
+    "name": "Abercarn Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6434029,
+    "longitude": -3.1362908,
+    "address": "Darren Drive",
+    "postcode": "NP11 5AR",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Abercarn",
+      "addr:housename": "Fire Station",
+      "addr:postcode": "NP11 5AR",
+      "addr:street": "Darren Drive",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Abercarn Fire Station",
+      "operator": "South Wales Fire and Rescue Service"
+    }
+  },
+  {
+    "id": "way_814374315",
+    "name": "Gilfach Goch Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5826497,
+    "longitude": -3.4684698,
+    "address": "",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "Gilfach Goch Fire Station",
+      "operator": "South Wales Fire and Rescue Service"
+    }
+  },
+  {
+    "id": "way_887052058",
+    "name": "Porthcawl Fire and Rescue Station",
+    "category": "fire_station",
+    "latitude": 51.4795027,
+    "longitude": -3.7004323,
+    "address": "Wellfield Road",
+    "postcode": "CF36 5TS",
+    "operator": "South Wales Fire and Rescue Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Porthcawl",
+      "addr:housename": "Fire Station",
+      "addr:postcode": "CF36 5TS",
+      "addr:street": "Wellfield Road",
+      "amenity": "fire_station",
+      "contact:facebook": "https://www.facebook.com/PorthcawlFireStation/",
+      "name": "Porthcawl Fire and Rescue Station",
+      "name:cy": "Gorsaf Dân ac Achub Porthcawl",
+      "operator": "South Wales Fire and Rescue Service",
+      "operator:cy": "Gwasanaeth Tân ac Achub De Cymru",
+      "operator:wikidata": "Q7568770"
+    }
+  },
+  {
+    "id": "way_1062636998",
+    "name": "Aberbargoed Fire Station",
+    "category": "fire_station",
+    "latitude": 51.6842817,
+    "longitude": -3.2191155,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Aberbargoed Fire Station"
+    }
+  },
+  {
+    "id": "way_1180542528",
+    "name": "",
+    "category": "fire_station",
+    "latitude": 51.576757,
+    "longitude": -3.7698944,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes"
+    }
+  },
+  {
+    "id": "way_1307865622",
+    "name": "Whitchurch Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5180228,
+    "longitude": -3.2155093,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Whitchurch Fire Station"
+    }
+  },
+  {
+    "id": "way_1382693551",
+    "name": "Ely Fire Station",
+    "category": "fire_station",
+    "latitude": 51.4794696,
+    "longitude": -3.2388278,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Ely Fire Station"
+    }
+  },
+  {
+    "id": "way_1466715521",
+    "name": "Port Talbot Fire Station",
+    "category": "fire_station",
+    "latitude": 51.5844419,
+    "longitude": -3.7709306,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "name": "Port Talbot Fire Station"
+    }
+  },
+  {
+    "id": "relation_19170206",
+    "name": "Cardiff Airport",
+    "category": "fire_station",
+    "latitude": 51.3941664,
+    "longitude": -3.3416008,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "amenity": "fire_station",
+      "building": "yes;fire_station",
+      "name": "Cardiff Airport",
+      "source": "OS_OpenData_StreetView",
+      "type": "multipolygon"
+    }
+  }
+]

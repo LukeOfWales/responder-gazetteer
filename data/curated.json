@@ -1,0 +1,27 @@
+[
+  {
+    "id": "curated_grange_hospital",
+    "name": "The Grange University Hospital",
+    "category": "hospital",
+    "latitude": 51.6218,
+    "longitude": -3.0086,
+    "address": "Caerleon Rd, Llanfrechfa, Cwmbran NP44 8YN",
+    "phone": "01633 234234",
+    "website": "https://abuhb.nhs.wales/hospitals/hospitals/the-grange-university-hospital/",
+    "openingHours": "24/7",
+    "source": "Curated",
+    "tags": { "emergency_department": "yes", "critical_care": "yes" },
+    "replaces": ["way_838254768"]
+  },
+  {
+    "id": "curated_cbmrt",
+    "name": "Central Beacons Mountain Rescue Team",
+    "category": "mountain_rescue",
+    "latitude": 51.8060,
+    "longitude": -3.4030,
+    "address": "Brecon Beacons",
+    "website": "https://www.cbmrt.co.uk/",
+    "source": "Curated",
+    "tags": {}
+  }
+]

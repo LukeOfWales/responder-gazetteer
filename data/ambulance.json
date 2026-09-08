@@ -1,0 +1,356 @@
+[
+  {
+    "id": "node_5024989405",
+    "name": "Blackweir Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.4915001,
+    "longitude": -3.1895369,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "emergency": "ambulance_station",
+      "name": "Blackweir Ambulance Station"
+    }
+  },
+  {
+    "id": "node_7326159697",
+    "name": "Newport Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.5805231,
+    "longitude": -2.9902902,
+    "address": "Albert Street",
+    "postcode": "NP20 2PD",
+    "operator": "WAST",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Newport",
+      "addr:postcode": "NP20 2PD",
+      "addr:street": "Albert Street",
+      "emergency": "ambulance_station",
+      "name": "Newport Ambulance Station",
+      "operator": "WAST"
+    }
+  },
+  {
+    "id": "node_8645541422",
+    "name": "St John Ambulance Cymru",
+    "category": "ambulance_station",
+    "latitude": 51.5968125,
+    "longitude": -2.9972212,
+    "address": "Lyne Road",
+    "postcode": "NP20 5JG",
+    "phone": "+44 1633 222 000",
+    "website": "https://www.sjacymru.org.uk/",
+    "operator": "St John Ambulance",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Newport",
+      "addr:postcode": "NP20 5JG",
+      "addr:street": "Lyne Road",
+      "check_date": "2025-05-20",
+      "email": "peopleservices@sjacymru.org.uk",
+      "emergency": "ambulance_station",
+      "name": "St John Ambulance Cymru",
+      "operator": "St John Ambulance",
+      "operator:wikidata": "Q7593645",
+      "phone": "+44 1633 222 000",
+      "website": "https://www.sjacymru.org.uk/"
+    }
+  },
+  {
+    "id": "node_9738224804",
+    "name": "Cwmbran Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.6441691,
+    "longitude": -3.0140144,
+    "address": "43 Court Road",
+    "postcode": "NP44 3BB",
+    "operator": "WAST",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Cwmbran",
+      "addr:housenumber": "43",
+      "addr:postcode": "NP44 3BB",
+      "addr:street": "Court Road",
+      "emergency": "ambulance_station",
+      "name": "Cwmbran Ambulance Station",
+      "operator": "WAST"
+    }
+  },
+  {
+    "id": "way_27727299",
+    "name": "Cardiff East Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.5028537,
+    "longitude": -3.1184409,
+    "address": "1 Spring Meadow Road",
+    "postcode": "CF3 2ES",
+    "operator": "Welsh Ambulance Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Cardiff",
+      "addr:housenumber": "1",
+      "addr:postcode": "CF3 2ES",
+      "addr:street": "Spring Meadow Road",
+      "addr:substreet": "Spring Meadows Industrial Estate",
+      "addr:suburb": "Rumney",
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "name": "Cardiff East Ambulance Station",
+      "operator": "Welsh Ambulance Service",
+      "operator:cy": "Gwasanaeth Ambiwlans Cymru",
+      "operator:en": "Welsh Ambulance Service",
+      "operator:wikidata": "Q7981848"
+    }
+  },
+  {
+    "id": "way_369159206",
+    "name": "Bassaleg Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.5775914,
+    "longitude": -3.0402322,
+    "address": "Park View",
+    "postcode": "NP10 8LA",
+    "operator": "St John Ambulance",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Newport",
+      "addr:postcode": "NP10 8LA",
+      "addr:street": "Park View",
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "name": "Bassaleg Ambulance Station",
+      "operator": "St John Ambulance",
+      "operator:wikidata": "Q7593645",
+      "ref:GB:uprn": "10002147009"
+    }
+  },
+  {
+    "id": "way_557711115",
+    "name": "",
+    "category": "ambulance_station",
+    "latitude": 51.6910541,
+    "longitude": -3.3431217,
+    "address": "Nixonville",
+    "postcode": "CF48 4RB",
+    "operator": "St John Ambulance",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Merthyr Tydfil",
+      "addr:postcode": "CF48 4RB",
+      "addr:street": "Nixonville",
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "operator": "St John Ambulance",
+      "operator:wikidata": "Q7593645"
+    }
+  },
+  {
+    "id": "way_639209044",
+    "name": "",
+    "category": "ambulance_station",
+    "latitude": 51.4105424,
+    "longitude": -3.4809338,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "building": "yes",
+      "emergency": "ambulance_station"
+    }
+  },
+  {
+    "id": "way_664916520",
+    "name": "Glynneath Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.7445116,
+    "longitude": -3.6308388,
+    "address": "",
+    "postcode": "SA11 5EW",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:postcode": "SA11 5EW",
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "name": "Glynneath Ambulance Station",
+      "ref:GB:uprn": "10009185048",
+      "source:addr:postcode": "ONSUD;OS Open UPRN"
+    }
+  },
+  {
+    "id": "way_703314859",
+    "name": "Gorsaf Ambiwlans Caerdydd",
+    "category": "ambulance_station",
+    "latitude": 51.5318263,
+    "longitude": -3.1383927,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "name": "Gorsaf Ambiwlans Caerdydd"
+    }
+  },
+  {
+    "id": "way_778960439",
+    "name": "Cowbridge Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.4599347,
+    "longitude": -3.441401,
+    "address": "",
+    "postcode": "CF71 7EU",
+    "operator": "Welsh Ambulance Service Trust",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:postcode": "CF71 7EU",
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "name": "Cowbridge Ambulance Station",
+      "operator": "Welsh Ambulance Service Trust"
+    }
+  },
+  {
+    "id": "way_817277419",
+    "name": "Bryncethin Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.5434994,
+    "longitude": -3.5715692,
+    "address": "",
+    "operator": "Welsh Ambulance Service Trust",
+    "source": "OpenStreetMap",
+    "tags": {
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "name": "Bryncethin Ambulance Station",
+      "operator": "Welsh Ambulance Service Trust"
+    }
+  },
+  {
+    "id": "way_887052726",
+    "name": "Porthcawl Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.4796673,
+    "longitude": -3.6996855,
+    "address": "Wellfield Road",
+    "postcode": "CF36 5TS",
+    "website": "https://www.porthcawl-cfr.org.uk/",
+    "operator": "Welsh Ambulance Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Porthcawl",
+      "addr:postcode": "CF36 5TS",
+      "addr:street": "Wellfield Road",
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "name": "Porthcawl Ambulance Station",
+      "operator": "Welsh Ambulance Service",
+      "operator:cy": "Gwasanaeth Ambiwlans Cymru",
+      "operator:wikidata": "Q7981848",
+      "website": "https://www.porthcawl-cfr.org.uk/"
+    }
+  },
+  {
+    "id": "way_966734222",
+    "name": "Barry Emergency Services Station",
+    "category": "ambulance_station",
+    "latitude": 51.4155334,
+    "longitude": -3.2896216,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Barry",
+      "building": "yes",
+      "emergency": "ambulance_station",
+      "name": "Barry Emergency Services Station"
+    }
+  },
+  {
+    "id": "way_1382440567",
+    "name": "St John Cymru Wales Operational Centre",
+    "category": "ambulance_station",
+    "latitude": 51.4876776,
+    "longitude": -3.2335317,
+    "address": "",
+    "postcode": "CF5 3AS",
+    "operator": "St John Ambulance",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:postcode": "CF5 3AS",
+      "building": "no",
+      "emergency": "ambulance_station",
+      "name": "St John Cymru Wales Operational Centre",
+      "operator": "St John Ambulance",
+      "operator:wikidata": "Q7593645",
+      "ref:GB:uprn": "10002515135",
+      "source:addr:postcode": "ONSUD;OS Open UPRN"
+    }
+  },
+  {
+    "id": "way_1436397325",
+    "name": "Bargoed Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.6945319,
+    "longitude": -3.2295895,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "emergency": "ambulance_station",
+      "name": "Bargoed Ambulance Station",
+      "name:cy": "Gorsaf Ambiwlas Bargoed"
+    }
+  },
+  {
+    "id": "way_1466529307",
+    "name": "Port Talbot Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.5897983,
+    "longitude": -3.7720233,
+    "address": "",
+    "source": "OpenStreetMap",
+    "tags": {
+      "emergency": "ambulance_station",
+      "name": "Port Talbot Ambulance Station"
+    }
+  },
+  {
+    "id": "way_1491160854",
+    "name": "Blackwood Ambulance Station",
+    "category": "ambulance_station",
+    "latitude": 51.6760614,
+    "longitude": -3.1943436,
+    "address": "Heol Pit-y-Ceiliogod",
+    "postcode": "NP12 1YR",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Blackwood",
+      "addr:postcode": "NP12 1YR",
+      "addr:street": "Heol Pit-y-Ceiliogod",
+      "emergency": "ambulance_station",
+      "name": "Blackwood Ambulance Station"
+    }
+  },
+  {
+    "id": "relation_5978681",
+    "name": "Welsh Ambulance Service Regional Headquarters",
+    "category": "ambulance_station",
+    "latitude": 51.638497,
+    "longitude": -3.0227119,
+    "address": "Ty Coch Way",
+    "postcode": "NP44 7HF",
+    "operator": "Welsh Ambulance Service",
+    "source": "OpenStreetMap",
+    "tags": {
+      "addr:city": "Cwmbran",
+      "addr:housename": "Vantage Point House",
+      "addr:postcode": "NP44 7HF",
+      "addr:street": "Ty Coch Way",
+      "building": "yes",
+      "building:levels": "3",
+      "emergency": "ambulance_station",
+      "name": "Welsh Ambulance Service Regional Headquarters",
+      "operator": "Welsh Ambulance Service",
+      "operator:cy": "Gwasanaeth Ambiwlans Cymru",
+      "operator:wikidata": "Q7981848",
+      "type": "multipolygon"
+    }
+  }
+]
