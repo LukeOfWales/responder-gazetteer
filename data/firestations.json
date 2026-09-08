@@ -140,7 +140,6 @@
       "addr:postcode": "NP19 8EP",
       "addr:street": "Archibald Street",
       "amenity": "fire_station",
-      "contact:facebook": "https://www.facebook.com/pages/Maindee-Fire-Station/177661225616033",
       "name": "Maindee Fire Station",
       "operator": "South Wales Fire and Rescue Service",
       "phone": "+44 1443 232000"
@@ -620,7 +619,6 @@
       "addr:postcode": "CF36 5TS",
       "addr:street": "Wellfield Road",
       "amenity": "fire_station",
-      "contact:facebook": "https://www.facebook.com/PorthcawlFireStation/",
       "name": "Porthcawl Fire and Rescue Station",
       "name:cy": "Gorsaf Dân ac Achub Porthcawl",
       "operator": "South Wales Fire and Rescue Service",

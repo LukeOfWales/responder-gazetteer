@@ -137,6 +137,45 @@ function extractAddress(tags: Record<string, string>): {
 }
 
 /**
+ * Strip tags that carry personal data before publishing.
+ *
+ * OSM sometimes records named individuals' email addresses (e.g. a specific
+ * officer or contact). Republishing those in a public repo is a data-protection
+ * concern, so we drop personal-looking contacts while keeping generic role/org
+ * inboxes and non-PII tags.
+ */
+function sanitizeTags(tags: Record<string, string>): Record<string, string> {
+  const clean: Record<string, string> = {}
+
+  // Tag keys that commonly hold personal contact details - dropped entirely.
+  const dropKeys = /^(email|contact:email|contact:facebook|contact:twitter|contact:instagram|contact:linkedin|fax|contact:fax)$/i
+
+  // Heuristic: an email addressed to a named person (contains a dot or
+  // hyphen in the local part, e.g. "jane.doe@" or "j-doe@") is treated as
+  // PII; generic inboxes (info@, hello@, enquiries@) are kept.
+  const looksPersonalEmail = (value: string): boolean => {
+    const match = value.match(/([a-zA-Z0-9._%+-]+)@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/)
+    if (!match) return false
+    const local = match[1].toLowerCase()
+    const genericInbox =
+      /^(info|hello|enquir|contact|admin|office|reception|general|support|sales|bookings?|peopleservices|customer|help|mail|post|team)/
+    if (genericInbox.test(local)) return false
+    // Purely numeric local parts (e.g. store IDs like 2288@) are not personal.
+    if (/^\d+$/.test(local)) return false
+    // A separator in the local part usually indicates first.last / first-last.
+    return /[._-]/.test(local)
+  }
+
+  for (const [key, value] of Object.entries(tags)) {
+    if (dropKeys.test(key)) continue
+    if (looksPersonalEmail(value)) continue
+    clean[key] = value
+  }
+
+  return clean
+}
+
+/**
  * Transform Overpass feature to Asset format
  */
 function transformFeature(
@@ -150,6 +189,7 @@ function transformFeature(
   }
 
   const { address, postcode } = extractAddress(feature.tags)
+  const tags = sanitizeTags(feature.tags)
 
   return {
     id: `${feature.type}_${feature.id}`,
@@ -172,7 +212,7 @@ function transformFeature(
       feature.tags['opening_hours:covid19'],
     operator: feature.tags['operator'],
     source: 'OpenStreetMap',
-    tags: feature.tags,
+    tags: tags,
   }
 }
 
